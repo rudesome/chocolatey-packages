@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>rocket.chat</id>
+    <version>3.8.0</version>
+    <title>rocket.chat</title>
+    <owners>chocolatey</owners>
+    <authors>rocket.chat</authors>
+    <licenseUrl>https://github.com/RocketChat/Rocket.Chat.Electron/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/RocketChat/Rocket.Chat.Electron</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+The ultimate Free Open Source Solution for team communications. 
+Rocket.Chat is free, unlimited and open source. Replace email, HipChat and Slack with the ultimate team chat software solution.
+Communicate and collaborate using team chat and switch to video or audio calls with screen sharing for more efficient teamwork.
+Improve productivity by discussing and sharing ideas, projects and files with real-time or asynchronous team chat.
+With complete access to the source code, you can fully customize, extend or add new functionality to meet your requirements.
+With Rocket.Chat LiveChat you can add real-time chat widgets to any website or mobile app and get more value from your team chat.
+Replace other systems and use one communication platform to save time and money. 
+    </description>
+    <summary>Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat https://rocket.chat/ </summary>
+    <releaseNotes>https://github.com/RocketChat/Rocket.Chat.Electron/blob/master/CHANGELOG.md</releaseNotes>
+    <copyright />
+    <tags>rocket.chat rocketchat rocket.chat chat IM</tags>
+    <packageSourceUrl>https://github.com/Parkhost/chocolatey-packages/tree/master/rocket.chat</packageSourceUrl>
+    <projectSourceUrl>https://github.com/RocketChat/Rocket.Chat.Electron</projectSourceUrl>
+    <docsUrl>https://github.com/RocketChat/Rocket.Chat.Electron/wiki</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
