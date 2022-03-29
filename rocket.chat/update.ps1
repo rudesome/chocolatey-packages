@@ -15,10 +15,10 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "rocketchat-setup.+.exe"
+    $re  = "rocketchat.+.-win.exe"
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-    $version = ([regex]::Match($url,'/rocketchat-setup-(.+).exe')).Captures.Groups[1].value
+    $version = ([regex]::Match($url,'/rocketchat-(.+)-win.exe')).Captures.Groups[1].value
     $url = 'https://github.com' + $url
 
     return @{ 
