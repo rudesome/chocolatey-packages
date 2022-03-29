@@ -1,9 +1,9 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url          = ''
+$url          = 'https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.8.1/rocketchat-3.8.1-win.exe'
 $checksum     = ''
-$checksumType = 'sha256'
+$checksumType = ''
 
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
