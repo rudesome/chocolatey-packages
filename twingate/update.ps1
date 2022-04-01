@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://github.com/RocketChat/Rocket.Chat.Electron/releases/latest'
+$releases = 'https://www.twingate.com/changelog/clients/'
 
 function global:au_SearchReplace {
     @{
@@ -15,11 +15,11 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "rocketchat.+.-win.exe"
+    $re  = "TwingateWindowsInstaller.msi"
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-    $version = ([regex]::Match($url,'/rocketchat-(.+)-win.exe')).Captures.Groups[1].value
-    $url = 'https://github.com' + $url
+    $version = ([regex]::Match($url,'/versions/(.+)/TwingateWindowsInstaller.msi')).Captures.Groups[1].value
+    $url = 'https:' + $url
 
     return @{ 
         URL32 = $url
