@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url          = 'https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.8.1/rocketchat-3.8.1-win.exe'
+$url          = 'https://binaries.twingate.com/client/windows/versions/1.0.16.9232/TwingateWindowsInstaller.msi'
 $checksum     = ''
 $checksumType = ''
 
