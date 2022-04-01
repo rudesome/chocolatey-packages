@@ -8,8 +8,8 @@
     <owners>twingate</owners>
     <authors>twingate</authors>
     <licenseUrl>https://www.twingate.com/terms/</licenseUrl>
-    <projectUrl>tron</projectUrl>
-    <iconUrl>https://avatars.githubusercontent.com/u/61844068?s=200</iconUrl>
+    <projectUrl>https://www.twingate.com</projectUrl>
+    <iconUrl>https://avatars.githubusercontent.com/u/61844068</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Twingate enables organizations to rapidly implement a modern zero trust network that is more secure and maintainable than VPNs.
