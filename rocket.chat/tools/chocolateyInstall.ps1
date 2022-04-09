@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url          = 'https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.8.1/rocketchat-3.8.1-win.exe'
+$url          = 'https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/3.8.2/rocketchat-3.8.2-win.exe'
 $checksum     = ''
 $checksumType = ''
 
