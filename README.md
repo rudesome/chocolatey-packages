@@ -2,6 +2,4 @@
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [![](http://transparent-favicon.info/favicon.ico)](#)
 [Update status](https://gist.github.com/rudesome/fedbffbda8a2e372138127cba400c703)
-[![](http://transparent-favicon.info/favicon.ico)](#)
-[![](http://transparent-favicon.info/favicon.ico)](#)
-[chocolatey/Parkhost](https://chocolatey.org/profiles/Parkhost)
+
